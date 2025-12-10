@@ -1,0 +1,25 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.pop3d {
+  text-shadow: 
+    0px 0px 0 #00e1ff,
+    1px 1px 0 #00e1ff,
+    2px 2px 0 #00e1ff,
+    3px 3px 0 #00e1ff,
+    4px 4px 0 #00e1ff,
+    5px 5px 0 #00e1ff;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.pop3d:hover {
+  transform: translateY(-4px);
+  text-shadow: 
+    0px 0px 0 #00e1ff,
+    2px 2px 0 #00e1ff,
+    4px 4px 0 #00e1ff,
+    6px 6px 0 #00e1ff,
+    8px 8px 0 #00e1ff;
+}
+
