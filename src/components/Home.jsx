@@ -7,7 +7,7 @@ export default function Home() {
       id="home"
       className="h-screen flex flex-col justify-center items-center bg-gray-900 text-white text-center px-4"
     >
-      <img src="/avatar.png" alt="Hero" className="mb-6 object-cover" />
+      <img src="/avatar2.png" alt="Hero" className="mb-6 h-80 w-80 object-cover" />
      <h1 className="text-5xl font-bold mb-4 text-white pop3d">
   Hi, I'm Shivam Maurya
 </h1>

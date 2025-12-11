@@ -5,6 +5,7 @@ import Hero from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <About />
+      <Skills />
       <Projects />
       <Contact />
     </>

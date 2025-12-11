@@ -9,12 +9,13 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         
         {/* Logo */}
-        <h1 className="text-2xl font-bold">ShiVaM</h1>
+        <img src="/logo1.png" alt="Logo" className="h-15 w-15 object-cover" />
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-lg">
           <li><a href="#home" className="hover:text-blue-400">Home</a></li>
           <li><a href="#about" className="hover:text-blue-400">About</a></li>
+          <li><a href="#skills" className="hover:text-blue-400">Skills</a></li>
           <li><a href="#projects" className="hover:text-blue-400">Projects</a></li>
           <li><a href="#contact" className="hover:text-blue-400">Contact</a></li>
         </ul>
@@ -30,7 +31,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {open && (
-        <div className="md:hidden bg-gray-900 px-6 py-4 space-y-4 text-lg text-center">
+        <div className="md:hidden bg-gray-900 px-4 py-4 space-y-4 text-lg text-center">
           <a
             href="#home"
             className="block hover:text-blue-400"
@@ -44,6 +45,13 @@ export default function Navbar() {
             onClick={() => setOpen(false)}
           >
             About
+          </a>
+          <a
+            href="#skills"
+            className="block hover:text-blue-400"
+            onClick={() => setOpen(false)}
+          >
+            Skills
           </a>
           <a
             href="#projects"
